@@ -2,10 +2,18 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>H4CKELL4</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>H4CKELL4 - Terminal</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1 style="color:lime; background:black; text-align:center; padding:20px;">Bem-vindo ao terminal H4CKELL4!</h1>
-  <p style="text-align:center;">Jogo em construção...</p>
+  <div id="terminal">
+    <pre id="output">H4CKELL4 Terminal Iniciado...
+Digite "start" para iniciar o ataque.
+</pre>
+    <input type="text" id="commandInput" placeholder="Digite um comando e pressione Enter">
+  </div>
+  <audio id="typeSound" src="https://www.soundjay.com/typing/keyboard-1.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
 </body>
 </html>
